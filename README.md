@@ -6,7 +6,7 @@ Vous pourrez télécharger PostgreSQL sur ce lien : https://www.postgresql.org/d
 
 Si vous avez une version fedora < 29, vous pourrez télécharger PostgreSQL ici: https://fedoraproject.org/wiki/PostgreSQL
 
-Téléchargez ensuite Neo4j sur le lien suivant : https://neo4j.com/download-center/
+Téléchargez ensuite Neo4j sur le lien suivant : https://go.neo4j.com/download-thanks.html?edition=community&release=4.0.5&flavour=unix&_ga=2.36738976.1299535582.1592250295-1630072274.1588668299
 
 # 2. Créer une base de données / Créer des tables
 
