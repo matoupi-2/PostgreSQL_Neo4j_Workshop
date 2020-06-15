@@ -56,4 +56,5 @@ Exporter les 3 tables de votre base de données au format csv et placer ensuite 
 
 # 4. Importation des tables dans Neo4j
 Importer ensuite les fichiers csv dans Neo4j via le binaire neo4j-admin import
-Vous utiliserez les flags -nodes pour movies.csv et actors.csv ainsi que le flag -relationship pour roles.csv
+Vous utiliserez les flags --nodes pour movies.csv et actors.csv ainsi que le flag --relationships pour roles.csv
+(Vérifier que la base de données Neo4j et bien vide avant d'effectuer l'import :))
