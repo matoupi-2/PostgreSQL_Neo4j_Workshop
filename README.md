@@ -51,5 +51,9 @@ carrieanne,Trinity,tt0234215,ACTED_IN
 
 carrieanne,Trinity,tt0242653,ACTED_IN
 
-# 3. Export des tables
+# 3. Exportation des tables
 Exporter les 3 tables de votre base de données au format csv et placer ensuite ces fichiers dans le dossier import de Neo4j
+
+# 4. Importation des tables dans Neo4j
+Importer ensuite les fichiers csv dans Neo4j via le binaire neo4j-admin import
+Vous utiliserez les flags -nodes pour movies.csv et actors.csv ainsi que le flag -relationship pour roles.csv
