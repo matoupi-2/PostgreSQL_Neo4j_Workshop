@@ -23,18 +23,30 @@ carrieanne,Carrie-Anne Moss,Actor
 
 # movies
 movieID:ID,title,year:int,:LABEL
+
 tt0133093,Matrix,1999,Movie
+
 tt0234215,Matrix Reloaded,2003,Movie;Sequel
+
 tt0242653,Matrix Revolutions,2003,Movie;Sequel
 
 # roles
 :START_ID,role,:END_ID,:TYPE
+
 keanu,NEO,tt0133093,ACTED_IN
+
 keanu,NEO,tt0234215,ACTED_IN
+
 keanu,NEO,tt0242653,ACTED_IN
+
 laurence,Morpheus,tt0133093,ACTED_IN
+
 laurence,Morpheus,tt0234215,ACTED_IN
+
 laurence,Morpheus,tt0242653,ACTED_IN
+
 carrieanne,Trinity,tt0133093,ACTED_IN
+
 carrieanne,Trinity,tt0234215,ACTED_IN
+
 carrieanne,Trinity,tt0242653,ACTED_IN
