@@ -14,8 +14,11 @@ Créer et nommer une base de données puis insérer les tables avec les données
 
 # actors
 personID:ID,name,:LABEL
+
 keanu,Keanu Reeves,Actor
+
 laurence,Laurence Fishburne,Actor
+
 carrieanne,Carrie-Anne Moss,Actor
 
 # movies
