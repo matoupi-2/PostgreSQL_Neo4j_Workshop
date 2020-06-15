@@ -51,4 +51,5 @@ carrieanne,Trinity,tt0234215,ACTED_IN
 
 carrieanne,Trinity,tt0242653,ACTED_IN
 
-# 3. Exporter les 3 tables de votre base de données au format csv et placer ensuite ces fichiers dans le dossier import de Neo4j
+# 3. Export des tables
+Exporter les 3 tables de votre base de données au format csv et placer ensuite ces fichiers dans le dossier import de Neo4j
