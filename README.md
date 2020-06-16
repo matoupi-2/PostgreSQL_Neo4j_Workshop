@@ -61,3 +61,14 @@ Vous utiliserez les flags --nodes pour movies.csv et actors.csv ainsi que le fla
 
 # 5. Lancement de Neo4j
 Une fois l'import terminé, connectez vous au browser Neo4j; si les tâches précédantes sont bien réussites vous devriez voir la représentation graphique de vos fichiers.
+
+# 6. Cypher query language
+Effectuer vos premières query via le terminal sur Neo4j Browser afin d'effectuer des recherches précises :
+    - Changer les couleurs / la taille et l'index des nodes en fonction des labels
+    - Trouver les attributs/labels de chaque node
+    - Rechercher un node actor ou movie en particulier
+    - Rechercher une relation entre un actor et un movies
+    - Afficher tous les films auquel Keanu Reeves a joué
+    - Afficher tous les actors du film Matrix
+    
+Libre à vous d'aller plus loin dans les fonctionnalités du logiciel ;).
