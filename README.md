@@ -77,3 +77,45 @@ Effectuer vos premières query via le terminal sur Neo4j Browser afin d'effectue
     - Afficher tous les actors du film Matrix
     
 Libre à vous d'aller plus loin dans les fonctionnalités du logiciel ;).
+
+# 7. Shit, here we go again
+si vous avez le temps, refaites le même exercice avec les données suivantes :
+
+# Actors
+personID:ID,name,:LABEL
+
+Orlando,Orlando Bloom,Actor
+
+Ian,Ian McKellen,Actor
+
+Elijah, Elijah Wood,Actor
+
+# movies
+movieID:ID,title,year:int,:LABEL
+
+tt0193176,The Fellowship of the Ring,2001,Movie
+
+tt01931287,The Two Towers,2002,Movie;Sequel
+
+tt01931740,The Return of the King,2003,Movie;Sequel
+
+# rules
+:START_ID,role,:END_ID,:TYPE
+
+Orlando,Legolas,tt0193176,ACTED_IN
+
+Orlando,Legolas,tt01931287,ACTED_IN
+
+Orlando,Legolas,tt01931740,ACTED_IN
+
+Ian,Gandalf,tt0193176,ACTED_IN
+
+Ian,Gandalf,tt01931287,ACTED_IN
+
+Ian,Gandalf,tt01931740,ACTED_IN
+
+Elijah,Froddo,tt0193176,ACTED_IN
+
+Elijah,Froddo,tt01931287,ACTED_IN
+
+Elijah,Froddo,tt01931740,ACTED_IN
